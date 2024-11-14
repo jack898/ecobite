@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ecobite/static/css/main.115021a7.css",
+    "main.js": "/ecobite/static/js/main.9fa6e33d.js",
+    "static/js/453.d54ada2c.chunk.js": "/ecobite/static/js/453.d54ada2c.chunk.js",
+    "index.html": "/ecobite/index.html",
+    "main.115021a7.css.map": "/ecobite/static/css/main.115021a7.css.map",
+    "main.9fa6e33d.js.map": "/ecobite/static/js/main.9fa6e33d.js.map",
+    "453.d54ada2c.chunk.js.map": "/ecobite/static/js/453.d54ada2c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.115021a7.css",
+    "static/js/main.9fa6e33d.js"
+  ]
+}
