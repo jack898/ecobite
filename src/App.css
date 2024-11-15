@@ -100,11 +100,16 @@
   gap: 15px; 
 }
 
+.text-box {
+  width: 900px;
+  text-align: left;
+  margin: 10px;
+}
+
 .slider-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 /* SLIDER STYLING */

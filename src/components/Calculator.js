@@ -34,7 +34,7 @@ function Calculator() {
 
   // Emissions equivalents for easier understanding
   // See Research for sources for these factors.
-  const milesEquiv = (totalEmissions / 0.411).toFixed(0); // result in miles
+  const milesEquiv = (totalEmissions / 0.400).toFixed(0); // result in miles
   const laptopHrsEquiv = (totalEmissions / (0.07 / 8)).toFixed(0); // result in hours
 
 
