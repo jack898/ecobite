@@ -1,4 +1,4 @@
-# EcoBite
+# [EcoBite](https://jack898.github.io/ecobite/)
 This is a React web application featuring a user-friendly, interactive calculator for carbon emissions from various protein sources. After the user provides their protein consumption quantities, it shows total carbon emissions, a detailed breakdown by protein type, and two comparison metrics; miles driven by car, and hours using a desktop computer.
 
 This is a final project for ENV-12: Climate Action at Tufts University, in Fall 2024.
