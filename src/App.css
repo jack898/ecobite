@@ -1,3 +1,185 @@
+/* General Reset and App Background */
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #F0EAD6;
+}
+
+.App {
+  min-height: 100%;
+  height: auto;
+  position: relative;
+  background-color: #F0EAD6;
+  word-wrap: break-word; /* Ensure text wraps */
+  overflow-wrap: break-word;
+}
+
+/* Header Styling */
+.App-header {
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+/* Child Box Styling */
+.child-box {
+  display: inline-block;
+  border-radius: 25px;
+  background: #d7d2c3;
+  padding: 20px;
+  min-width: 300px;
+  min-height: 300px;
+  max-width: 90%; /* Responsive for small screens */
+  vertical-align: middle;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Parent Containers */
+.parent-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; /* Centers child boxes in Calculator */
+}
+
+/* Tab Styling */
+.tab-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 20px;
+}
+
+/* Button Styling */
+.basic-button {
+  background-color: #c4c0b5;
+  color: rgb(0, 0, 0);
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.basic-button:hover {
+  background-color: #b7b4ac;
+}
+
+.basic-button:active {
+  background-color: #b7b4ac;
+  transform: scale(0.95);
+}
+
+/* Dropdown Styling */
+.clean-dropdown {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  outline: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.clean-dropdown:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(93, 96, 99, 0.5);
+}
+
+/* Number Input Container */
+.number-input-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+/* Slider Styling */
+.slider-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clean-slider-input {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 200px;
+  height: 12px;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  outline: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+.clean-slider-input:hover {
+  background-color: #e0e0e0;
+}
+
+.clean-slider-input::-webkit-slider-thumb,
+.clean-slider-input::-moz-range-thumb,
+.clean-slider-input::-ms-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #333;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s ease;
+}
+
+.clean-slider-input:active::-webkit-slider-thumb,
+.clean-slider-input:active::-moz-range-thumb,
+.clean-slider-input:active::-ms-thumb {
+  background-color: #555;
+}
+
+/* Text Box Styling */
+.text-box {
+  width: 100%; /* Full-width for responsiveness */
+  max-width: 900px;
+  text-align: left;
+  margin: 10px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Link Styling */
+.App-link {
+  color: #61dafb;
+}
+
+/* Keyframes */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*
 .App {
   min-height: 100%;
   height: auto;
@@ -28,11 +210,11 @@ html, body {
   padding: 20px; 
   min-width: 300px;
   min-height: 300px;
-  max-width: 90%; /* Allow boxes to shrink for small screens */
+  max-width: 90%; /* Allow boxes to shrink for small screens 
   vertical-align: middle;
 }
 
-/* TAB STYLING */
+/* TAB STYLING 
 
 .tab-container {
   display: flex;
@@ -42,7 +224,7 @@ html, body {
   gap: 20px;
 }
 
-/* BUTTON STYLING */
+/* BUTTON STYLING 
 .basic-button {
   background-color: #c4c0b5; 
   color: rgb(0, 0, 0);
@@ -54,7 +236,7 @@ html, body {
   transition: background-color 0.3s ease, transform 0.1s ease;
 }
 
-/* Trying to improve text wrapping... */
+/* Trying to improve text wrapping... 
 .text-box, .child-box, .App {
   word-wrap: break-word;
   overflow-wrap: break-word;
@@ -86,7 +268,7 @@ html, body {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: center; /* Centers only the child boxes in Calculator */
+  justify-content: center; /* Centers only the child boxes in Calculator 
 }
 
 .clean-dropdown {
@@ -127,7 +309,7 @@ html, body {
   align-items: center;
 }
 
-/* SLIDER STYLING */
+/* SLIDER STYLING 
 .clean-slider-input {
   -webkit-appearance: none; 
   appearance: none;
@@ -144,7 +326,7 @@ html, body {
   background-color: #e0e0e0; 
 }
 
-/* Customizing the slider thumb */
+/* Customizing the slider thumb 
 .clean-slider-input::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
@@ -175,9 +357,9 @@ html, body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* Active state for the thumb when sliding */
+/* Active state for the thumb when sliding 
 .clean-slider-input:active::-webkit-slider-thumb {
-  background-color: #555; /* Slightly lighter when active */
+  background-color: #555; /* Slightly lighter when active 
 }
 
 .clean-slider-input:active::-moz-range-thumb {
@@ -200,3 +382,4 @@ html, body {
     transform: rotate(360deg);
   }
 }
+*/
