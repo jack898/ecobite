@@ -1,11 +1,18 @@
 .App {
-  text-align: center;
+  min-height: 100%;
+  height: auto;
   background-color: #F0EAD6;
-  min-height: 100vh;
+  position: relative;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #F0EAD6;
 }
 
 .App-header {
-  min-height: 100vh;
+  min-height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,8 +26,9 @@
   border-radius: 25px;
   background: #d7d2c3;
   padding: 20px; 
-  min-width: 500px;
+  min-width: 300px;
   min-height: 300px;
+  max-width: 90%; /* Allow boxes to shrink for small screens */
   vertical-align: middle;
 }
 
@@ -46,6 +54,12 @@
   transition: background-color 0.3s ease, transform 0.1s ease;
 }
 
+/* Trying to improve text wrapping... */
+.text-box, .child-box, .App {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
 .basic-button:hover {
   background-color: #b7b4ac; 
 }
@@ -68,6 +82,7 @@
 }
 
 .calculator-container {
+  flex-direction: column;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
