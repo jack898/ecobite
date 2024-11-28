@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ecobite/static/css/main.a2bc199e.css",
-    "main.js": "/ecobite/static/js/main.21aa9beb.js",
+    "main.js": "/ecobite/static/js/main.924d0558.js",
     "static/js/453.d54ada2c.chunk.js": "/ecobite/static/js/453.d54ada2c.chunk.js",
     "index.html": "/ecobite/index.html",
     "main.a2bc199e.css.map": "/ecobite/static/css/main.a2bc199e.css.map",
-    "main.21aa9beb.js.map": "/ecobite/static/js/main.21aa9beb.js.map",
+    "main.924d0558.js.map": "/ecobite/static/js/main.924d0558.js.map",
     "453.d54ada2c.chunk.js.map": "/ecobite/static/js/453.d54ada2c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2bc199e.css",
-    "static/js/main.21aa9beb.js"
+    "static/js/main.924d0558.js"
   ]
 }
