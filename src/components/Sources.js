@@ -20,6 +20,7 @@ function Sources() {
         amount of warming they cause over a 100-year time scale 
         (CO2eq over 100 years per gas = GWP (compared to CO2) * Time (years)). 
       </p>
+      <p>The data for the footprint of the average american diet comes from a recent study published in the Journal of Cleaner Production.</p>
       <p>To simplify calculations, we assumed beef comes 100% from beef herds. In reality ~10% comes from dairy herds. This would slightly reduce true emissions for beef, but it would still remain the largest emitter by far.</p>
       <p>For the comparison metrics (miles driven by car and hours using a laptop), we used sources from the U.S. Environmental Protection Agency and the University of Oxford, respectively.
          From these sources, we found that the average passenger vehicle emits about 400g of CO2 per mile, and using a desktop computer for 8 hours results in emissions equivalent to 70g of CO2.
@@ -28,7 +29,8 @@ function Sources() {
       <p>J. Poore, T. Nemecek ,Reducing food’s environmental impacts through producers and consumers. <i>Science</i> <b>360</b>, 987-992 (2018). DOI: <a href="https://doi.org/10.1126/science.aaq0216">10.1126/science.aaq0216</a></p>
       <p>Moreira, Ligia C et al. "Beef production from cull dairy cows: a review from culling to consumption." <i>Journal of animal science</i> vol. 99,7 (2021): skab192. DOI:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8281100/">10.1093/jas/skab192</a></p>
       <p>"Greenhouse Gas Emissions from a Typical Passenger Vehicle." <i>US EPA</i>, Environmental Protection Agency, June 2023, <a href="https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle">www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle.</a></p>
-      <p>"Environmental Impact of IT: Desktops, Laptops and Screens." <i>IT Services</i>, University of Oxford, 13 Apr. 2022, <a href="https://www.it.ox.ac.uk/article/environment-and-it">www.it.ox.ac.uk/article/environment-and-it.</a> </p>
+      <p>"Environmental Impact of IT: Desktops, Laptops and Screens." <i>IT Services</i>, University of Oxford, 13 Apr. 2022, <a href="https://www.it.ox.ac.uk/article/environment-and-it">www.it.ox.ac.uk/article/environment-and-it.</a></p>
+      <p>Bassi, Clare, et al. "Declining Greenhouse Gas Emissions in the US Diet (2003–2018): Drivers and Demographic Trends." <i>Journal of Cleaner Production</i>, University of Wisconsin-Madison, 23 Mar. 2022, <a href="www.sciencedirect.com/science/article/pii/S0959652622010861">www.sciencedirect.com/science/article/pii/S0959652622010861.</a></p>
     </div>
 
   );

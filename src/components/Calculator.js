@@ -43,6 +43,7 @@ function Calculator() {
     <div className="parent-container calculator-container">
       <div className="child-box">
         <h3>Options</h3>
+        <p>Enter your weekly consumption of each protein</p>
         {/* Creates quantity sliders for each protein category */}
         {Object.keys(quantities).map((key) => (
           <SliderComponent
@@ -62,6 +63,7 @@ function Calculator() {
         {/* Displays total and detailed breakdowns of emissions */}
         <h2>{totalEmissions}</h2>
         <h6><i>Kilograms CO₂e/week</i></h6>
+        <p>The footprint from the average American diet is 24kgCO₂e/week.</p>
         <h4>This is the equivalent of...</h4>
         <p>Driving {milesEquiv} miles in the average gasoline car.</p>
         <p>Using a desktop computer for {laptopHrsEquiv} hours.</p>
